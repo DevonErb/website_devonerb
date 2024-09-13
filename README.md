@@ -33,5 +33,5 @@ This portfolio is designed to be minimalistic yet functional, highlighting:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/devon-erb/portfolio.git
+   git clone https://github.com/DevonErb/website_devonerb.git
    cd portfolio
