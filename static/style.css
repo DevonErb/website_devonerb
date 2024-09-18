@@ -1,0 +1,81 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.skills, .projects, .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills div, .projects div, .contact div {
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
